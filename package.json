@@ -1,6 +1,6 @@
 {
   "name": "quasar-helper-json",
-  "version": "0.15.0",
+  "version": "1.0.0",
   "description": "Helping IDE to provide autocompletion for Quasar components",
   "scripts": {
     "build": "node build/index.js",
