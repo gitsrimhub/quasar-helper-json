@@ -5,6 +5,7 @@ const
   kebabCase = require('lodash.kebabcase'),
   cloneDeep = require('lodash.clonedeep'),
   beautify = require('json-beautify'),
+  { resolve } = require('path'),
   Quasar = require('quasar-framework/dist/umd/quasar.mat.umd')
 
 const
@@ -109,17 +110,21 @@ function getAttributes (cache) {
   return attrs
 }
 
+function resolvePath (file) {
+  return resolve(__dirname, '..', file)
+}
+
 Object.keys(components).forEach(name => {
   const list = {}
   parseComponent(components[name], list)
 })
 
-writeFileSync('../quasar-tags.json', beautify(
+writeFileSync(resolvePath('quasar-tags.json'), beautify(
   getTags(cache),
   null, 2, 1
 ))
 
-writeFileSync('../quasar-attributes.json', beautify(
+writeFileSync(resolvePath('quasar-attributes.json'), beautify(
   getAttributes(cache),
   null, 2, 1
 ))

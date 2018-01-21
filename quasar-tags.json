@@ -1,0 +1,1471 @@
+{
+  "q-action-sheet": {
+    "attributes": [
+      "value",
+      "title",
+      "grid",
+      "actions",
+      "dismiss-label"
+    ],
+    "description": ""
+  },
+  "q-ajax-bar": {
+    "attributes": [
+      "position",
+      "size",
+      "color",
+      "speed",
+      "delay",
+      "reverse"
+    ],
+    "description": ""
+  },
+  "q-alert": {
+    "attributes": [
+      "type",
+      "color",
+      "text-color",
+      "message",
+      "detail",
+      "icon",
+      "avatar",
+      "actions"
+    ],
+    "description": ""
+  },
+  "q-autocomplete": {
+    "attributes": [
+      "min-characters",
+      "max-results",
+      "debounce",
+      "filter",
+      "static-data",
+      "separator"
+    ],
+    "description": ""
+  },
+  "q-breadcrumbs": {
+    "attributes": [
+      "color",
+      "active-color",
+      "separator",
+      "align"
+    ],
+    "description": ""
+  },
+  "q-breadcrumbs-el": {
+    "attributes": [
+      "to",
+      "exact",
+      "append",
+      "replace",
+      "label",
+      "icon",
+      "color",
+      "no-ripple"
+    ],
+    "description": ""
+  },
+  "q-btn": {
+    "attributes": [
+      "disable",
+      "label",
+      "no-caps",
+      "no-wrap",
+      "icon",
+      "icon-right",
+      "round",
+      "outline",
+      "flat",
+      "rounded",
+      "push",
+      "size",
+      "fab",
+      "fab-mini",
+      "color",
+      "text-color",
+      "glossy",
+      "dense",
+      "no-ripple",
+      "justify",
+      "tabindex",
+      "value",
+      "loader",
+      "percentage",
+      "dark-percentage",
+      "wait-for-ripple",
+      "repeat-timeout"
+    ],
+    "description": ""
+  },
+  "q-btn-group": {
+    "attributes": [
+      "outline",
+      "flat",
+      "rounded",
+      "push"
+    ],
+    "description": ""
+  },
+  "q-btn-dropdown": {
+    "attributes": [
+      "disable",
+      "label",
+      "no-caps",
+      "no-wrap",
+      "icon",
+      "icon-right",
+      "round",
+      "outline",
+      "flat",
+      "rounded",
+      "push",
+      "size",
+      "fab",
+      "fab-mini",
+      "color",
+      "text-color",
+      "glossy",
+      "dense",
+      "no-ripple",
+      "justify",
+      "tabindex",
+      "value",
+      "split"
+    ],
+    "description": ""
+  },
+  "q-btn-toggle": {
+    "attributes": [
+      "value",
+      "color",
+      "text-color",
+      "toggle-color",
+      "text-toggle-color",
+      "options",
+      "disable",
+      "no-caps",
+      "no-wrap",
+      "outline",
+      "flat",
+      "dense",
+      "rounded",
+      "push",
+      "size",
+      "glossy",
+      "no-ripple",
+      "wait-for-ripple"
+    ],
+    "description": ""
+  },
+  "q-card": {
+    "attributes": [
+      "square",
+      "flat",
+      "inline",
+      "color",
+      "text-color"
+    ],
+    "description": ""
+  },
+  "q-card-title": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-card-main": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-card-actions": {
+    "attributes": [
+      "vertical",
+      "align"
+    ],
+    "description": ""
+  },
+  "q-card-media": {
+    "attributes": [
+      "overlay-position"
+    ],
+    "description": ""
+  },
+  "q-card-separator": {
+    "attributes": [
+      "inset"
+    ],
+    "description": ""
+  },
+  "q-carousel": {
+    "attributes": [
+      "value",
+      "color",
+      "height",
+      "arrows",
+      "infinite",
+      "animation",
+      "easing",
+      "swipe-easing",
+      "no-swipe",
+      "autoplay",
+      "handle-arrow-keys",
+      "quick-nav",
+      "quick-nav-icon"
+    ],
+    "description": ""
+  },
+  "q-carousel-slide": {
+    "attributes": [
+      "img-src"
+    ],
+    "description": ""
+  },
+  "q-carousel-control": {
+    "attributes": [
+      "position",
+      "offset"
+    ],
+    "description": ""
+  },
+  "q-chat-message": {
+    "attributes": [
+      "sent",
+      "label",
+      "bg-color",
+      "text-color",
+      "name",
+      "avatar",
+      "text",
+      "stamp",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-checkbox": {
+    "attributes": [
+      "val",
+      "true-value",
+      "false-value",
+      "value",
+      "label",
+      "left-label",
+      "color",
+      "keep-color",
+      "dark",
+      "disable",
+      "no-focus",
+      "checked-icon",
+      "unchecked-icon",
+      "toggle-indeterminate",
+      "indeterminate-value",
+      "indeterminate-icon"
+    ],
+    "description": ""
+  },
+  "q-chip": {
+    "attributes": [
+      "small",
+      "tag",
+      "square",
+      "floating",
+      "pointing",
+      "color",
+      "text-color",
+      "icon",
+      "icon-right",
+      "avatar",
+      "closable",
+      "detail"
+    ],
+    "description": ""
+  },
+  "q-chips-input": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "autofocus",
+      "name",
+      "max-length",
+      "max-height",
+      "placeholder",
+      "loading",
+      "value",
+      "frame-color",
+      "readonly",
+      "add-icon"
+    ],
+    "description": ""
+  },
+  "q-collapsible": {
+    "attributes": [
+      "value",
+      "disable",
+      "popup",
+      "indent",
+      "group",
+      "icon-toggle",
+      "separator",
+      "inset-separator",
+      "no-ripple",
+      "collapse-icon",
+      "dense",
+      "sparse",
+      "multiline",
+      "icon",
+      "right-icon",
+      "image",
+      "right-image",
+      "avatar",
+      "right-avatar",
+      "letter",
+      "right-letter",
+      "label",
+      "sublabel",
+      "label-lines",
+      "sublabel-lines",
+      "header-style",
+      "header-class"
+    ],
+    "description": ""
+  },
+  "q-color": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "popover",
+      "modal",
+      "value",
+      "default-selection",
+      "display-value",
+      "placeholder",
+      "clearable",
+      "ok-label",
+      "cancel-label",
+      "readonly"
+    ],
+    "description": ""
+  },
+  "q-color-picker": {
+    "attributes": [
+      "value",
+      "color",
+      "disable",
+      "readonly"
+    ],
+    "description": ""
+  },
+  "q-context-menu": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-datetime": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "popover",
+      "modal",
+      "format",
+      "placeholder",
+      "clearable",
+      "ok-label",
+      "cancel-label",
+      "default-selection",
+      "display-value",
+      "readonly",
+      "value",
+      "type",
+      "min",
+      "max",
+      "first-day-of-week",
+      "format-24-h",
+      "default-view"
+    ],
+    "description": ""
+  },
+  "q-datetime-picker": {
+    "attributes": [
+      "value",
+      "type",
+      "color",
+      "min",
+      "max",
+      "first-day-of-week",
+      "format-24-h",
+      "default-view",
+      "default-selection",
+      "disable",
+      "readonly"
+    ],
+    "description": ""
+  },
+  "q-dialog": {
+    "attributes": [
+      "value",
+      "title",
+      "message",
+      "prompt",
+      "options",
+      "ok",
+      "cancel",
+      "stack-buttons",
+      "prevent-close",
+      "position",
+      "color"
+    ],
+    "description": ""
+  },
+  "q-editor": {
+    "attributes": [
+      "value",
+      "readonly",
+      "disable",
+      "min-height",
+      "max-height",
+      "height",
+      "definitions",
+      "fonts",
+      "toolbar",
+      "toolbar-color",
+      "toolbar-text-color",
+      "toolbar-toggle-color",
+      "toolbar-bg",
+      "toolbar-flat",
+      "toolbar-outline",
+      "toolbar-push",
+      "toolbar-rounded",
+      "content-style",
+      "content-class"
+    ],
+    "description": ""
+  },
+  "q-fab": {
+    "attributes": [
+      "outline",
+      "push",
+      "flat",
+      "color",
+      "glossy",
+      "value",
+      "icon",
+      "active-icon",
+      "direction"
+    ],
+    "description": ""
+  },
+  "q-fab-action": {
+    "attributes": [
+      "outline",
+      "push",
+      "flat",
+      "color",
+      "glossy",
+      "icon"
+    ],
+    "description": ""
+  },
+  "q-field": {
+    "attributes": [
+      "inset",
+      "label",
+      "count",
+      "error",
+      "error-label",
+      "warning",
+      "warning-label",
+      "helper",
+      "icon",
+      "dark",
+      "orientation",
+      "label-width"
+    ],
+    "description": ""
+  },
+  "q-field-reset": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-icon": {
+    "attributes": [
+      "name",
+      "mat",
+      "ios",
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-infinite-scroll": {
+    "attributes": [
+      "handler",
+      "inline",
+      "offset"
+    ],
+    "description": ""
+  },
+  "q-inner-loading": {
+    "attributes": [
+      "dark",
+      "visible",
+      "size",
+      "color"
+    ],
+    "description": ""
+  },
+  "q-input": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "autofocus",
+      "name",
+      "max-length",
+      "max-height",
+      "placeholder",
+      "loading",
+      "value",
+      "type",
+      "clearable",
+      "no-pass-toggle",
+      "no-number-toggle",
+      "readonly",
+      "max-decimals",
+      "step",
+      "upper-case"
+    ],
+    "description": ""
+  },
+  "q-input-frame": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "top-addons",
+      "focused",
+      "length",
+      "focusable",
+      "additional-length"
+    ],
+    "description": ""
+  },
+  "q-knob": {
+    "attributes": [
+      "value",
+      "min",
+      "max",
+      "color",
+      "track-color",
+      "line-width",
+      "size",
+      "step",
+      "disable",
+      "readonly"
+    ],
+    "description": ""
+  },
+  "q-layout": {
+    "attributes": [
+      "view"
+    ],
+    "description": ""
+  },
+  "q-layout-drawer": {
+    "attributes": [
+      "value",
+      "overlay",
+      "side",
+      "breakpoint",
+      "behavior",
+      "content-style",
+      "content-class",
+      "no-swipe-open",
+      "no-swipe-close"
+    ],
+    "description": ""
+  },
+  "q-layout-footer": {
+    "attributes": [
+      "value",
+      "reveal"
+    ],
+    "description": ""
+  },
+  "q-layout-header": {
+    "attributes": [
+      "value",
+      "reveal",
+      "reveal-offset"
+    ],
+    "description": ""
+  },
+  "q-page": {
+    "attributes": [
+      "padding"
+    ],
+    "description": ""
+  },
+  "q-page-container": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-page-sticky": {
+    "attributes": [
+      "position",
+      "offset"
+    ],
+    "description": ""
+  },
+  "q-item": {
+    "attributes": [
+      "dark",
+      "dense",
+      "sparse",
+      "separator",
+      "inset-separator",
+      "multiline",
+      "highlight",
+      "tag",
+      "to",
+      "exact",
+      "append",
+      "replace",
+      "active",
+      "link"
+    ],
+    "description": ""
+  },
+  "q-item-separator": {
+    "attributes": [
+      "inset"
+    ],
+    "description": ""
+  },
+  "q-item-main": {
+    "attributes": [
+      "label",
+      "label-lines",
+      "sublabel",
+      "sublabel-lines",
+      "inset",
+      "tag"
+    ],
+    "description": ""
+  },
+  "q-item-side": {
+    "attributes": [
+      "right",
+      "icon",
+      "letter",
+      "inverted",
+      "avatar",
+      "image",
+      "stamp",
+      "color",
+      "text-color"
+    ],
+    "description": ""
+  },
+  "q-item-tile": {
+    "attributes": [
+      "icon",
+      "letter",
+      "inverted",
+      "image",
+      "avatar",
+      "stamp",
+      "label",
+      "sublabel",
+      "lines",
+      "color",
+      "text-color"
+    ],
+    "description": ""
+  },
+  "q-item-wrapper": {
+    "attributes": [
+      "cfg",
+      "slot-replace"
+    ],
+    "description": ""
+  },
+  "q-list": {
+    "attributes": [
+      "no-border",
+      "dark",
+      "dense",
+      "sparse",
+      "striped",
+      "striped-odd",
+      "separator",
+      "inset-separator",
+      "multiline",
+      "highlight",
+      "link"
+    ],
+    "description": ""
+  },
+  "q-list-header": {
+    "attributes": [
+      "inset"
+    ],
+    "description": ""
+  },
+  "q-modal": {
+    "attributes": [
+      "value",
+      "position",
+      "transition",
+      "enter-class",
+      "leave-class",
+      "position-classes",
+      "content-classes",
+      "content-css",
+      "no-backdrop-dismiss",
+      "no-esc-dismiss",
+      "minimized",
+      "maximized"
+    ],
+    "description": ""
+  },
+  "q-modal-layout": {
+    "attributes": [
+      "header-style",
+      "header-class",
+      "content-style",
+      "content-class",
+      "footer-style",
+      "footer-class"
+    ],
+    "description": ""
+  },
+  "q-resize-observable": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-scroll-observable": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-window-resize-observable": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-option-group": {
+    "attributes": [
+      "value",
+      "type",
+      "color",
+      "keep-color",
+      "dark",
+      "options",
+      "left-label",
+      "inline",
+      "disable"
+    ],
+    "description": ""
+  },
+  "q-pagination": {
+    "attributes": [
+      "value",
+      "min",
+      "max",
+      "color",
+      "size",
+      "disable",
+      "input",
+      "boundary-links",
+      "boundary-numbers",
+      "direction-links",
+      "ellipses",
+      "max-pages"
+    ],
+    "description": ""
+  },
+  "q-parallax": {
+    "attributes": [
+      "src",
+      "height",
+      "speed"
+    ],
+    "description": ""
+  },
+  "q-popover": {
+    "attributes": [
+      "value",
+      "anchor",
+      "self",
+      "fit",
+      "max-height",
+      "touch-position",
+      "anchor-click",
+      "offset",
+      "disable"
+    ],
+    "description": ""
+  },
+  "q-progress": {
+    "attributes": [
+      "percentage",
+      "color",
+      "stripe",
+      "animate",
+      "indeterminate",
+      "buffer",
+      "height"
+    ],
+    "description": ""
+  },
+  "q-pull-to-refresh": {
+    "attributes": [
+      "handler",
+      "distance",
+      "pull-message",
+      "release-message",
+      "refresh-message",
+      "refresh-icon",
+      "inline",
+      "disable"
+    ],
+    "description": ""
+  },
+  "q-radio": {
+    "attributes": [
+      "value",
+      "label",
+      "left-label",
+      "color",
+      "keep-color",
+      "dark",
+      "disable",
+      "no-focus",
+      "checked-icon",
+      "unchecked-icon",
+      "val"
+    ],
+    "description": ""
+  },
+  "q-range": {
+    "attributes": [
+      "min",
+      "max",
+      "step",
+      "decimals",
+      "snap",
+      "markers",
+      "label",
+      "label-always",
+      "square",
+      "color",
+      "fill-handle-always",
+      "error",
+      "readonly",
+      "disable",
+      "value",
+      "drag-range",
+      "drag-only-range",
+      "left-label-color",
+      "left-label-value",
+      "right-label-color",
+      "right-label-value"
+    ],
+    "description": ""
+  },
+  "q-rating": {
+    "attributes": [
+      "value",
+      "max",
+      "icon",
+      "color",
+      "size",
+      "readonly",
+      "disable"
+    ],
+    "description": ""
+  },
+  "q-scroll-area": {
+    "attributes": [
+      "thumb-style",
+      "content-style",
+      "content-active-style",
+      "delay"
+    ],
+    "description": ""
+  },
+  "q-search": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "autofocus",
+      "name",
+      "max-length",
+      "max-height",
+      "placeholder",
+      "loading",
+      "value",
+      "type",
+      "debounce",
+      "icon"
+    ],
+    "description": ""
+  },
+  "q-select": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "filter",
+      "filter-placeholder",
+      "autofocus-filter",
+      "radio",
+      "placeholder",
+      "separator",
+      "value",
+      "multiple",
+      "toggle",
+      "chips",
+      "options",
+      "frame-color",
+      "display-value",
+      "clearable"
+    ],
+    "description": ""
+  },
+  "q-slide-transition": {
+    "attributes": [
+      "appear"
+    ],
+    "description": ""
+  },
+  "q-slider": {
+    "attributes": [
+      "min",
+      "max",
+      "step",
+      "decimals",
+      "snap",
+      "markers",
+      "label",
+      "label-always",
+      "square",
+      "color",
+      "fill-handle-always",
+      "error",
+      "readonly",
+      "disable",
+      "value",
+      "label-value"
+    ],
+    "description": ""
+  },
+  "q-spinner-mat": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-audio": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-ball": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-bars": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-circles": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-comment": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-cube": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-dots": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-facebook": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-gears": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-grid": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-hearts": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-hourglass": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-infinity": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-ios": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-oval": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-pie": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-puff": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-radio": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-rings": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-spinner-tail": {
+    "attributes": [
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "q-step": {
+    "attributes": [
+      "name",
+      "default",
+      "title",
+      "subtitle",
+      "icon",
+      "order",
+      "error",
+      "active-icon",
+      "error-icon",
+      "done-icon",
+      "disable"
+    ],
+    "description": ""
+  },
+  "q-stepper": {
+    "attributes": [
+      "value",
+      "color",
+      "vertical",
+      "alternative-labels",
+      "contractable",
+      "done-icon",
+      "active-icon",
+      "error-icon"
+    ],
+    "description": ""
+  },
+  "q-stepper-navigation": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-route-tab": {
+    "attributes": [
+      "label",
+      "icon",
+      "disable",
+      "hidden",
+      "hide",
+      "name",
+      "alert",
+      "count",
+      "color",
+      "to",
+      "exact",
+      "append",
+      "replace"
+    ],
+    "description": ""
+  },
+  "q-tab": {
+    "attributes": [
+      "label",
+      "icon",
+      "disable",
+      "hidden",
+      "hide",
+      "name",
+      "alert",
+      "count",
+      "color",
+      "default"
+    ],
+    "description": ""
+  },
+  "q-tab-pane": {
+    "attributes": [
+      "name",
+      "keep-alive"
+    ],
+    "description": ""
+  },
+  "q-tabs": {
+    "attributes": [
+      "value",
+      "align",
+      "position",
+      "color",
+      "inverted",
+      "two-lines",
+      "no-pane-border",
+      "glossy"
+    ],
+    "description": ""
+  },
+  "q-table": {
+    "attributes": [
+      "sort-method",
+      "filter",
+      "filter-method",
+      "pagination",
+      "rows-per-page-options",
+      "selection",
+      "selected",
+      "visible-columns",
+      "data",
+      "row-key",
+      "color",
+      "columns",
+      "loader",
+      "title",
+      "hide-header",
+      "hide-bottom",
+      "dark",
+      "separator",
+      "no-data-label",
+      "no-results-label",
+      "loader-label",
+      "selected-rows-label",
+      "rows-per-page-label",
+      "pagination-label",
+      "table-style",
+      "table-class"
+    ],
+    "description": ""
+  },
+  "q-th": {
+    "attributes": [
+      "props",
+      "auto-width"
+    ],
+    "description": ""
+  },
+  "q-tr": {
+    "attributes": [
+      "props"
+    ],
+    "description": ""
+  },
+  "q-td": {
+    "attributes": [
+      "props",
+      "auto-width"
+    ],
+    "description": ""
+  },
+  "q-table-columns": {
+    "attributes": [
+      "value",
+      "label",
+      "columns",
+      "color"
+    ],
+    "description": ""
+  },
+  "q-timeline": {
+    "attributes": [
+      "color",
+      "dark"
+    ],
+    "description": ""
+  },
+  "q-timeline-entry": {
+    "attributes": [
+      "heading",
+      "tag",
+      "side",
+      "icon",
+      "color",
+      "title",
+      "subtitle"
+    ],
+    "description": ""
+  },
+  "q-toggle": {
+    "attributes": [
+      "val",
+      "true-value",
+      "false-value",
+      "value",
+      "label",
+      "left-label",
+      "color",
+      "keep-color",
+      "dark",
+      "disable",
+      "no-focus",
+      "checked-icon",
+      "unchecked-icon",
+      "icon"
+    ],
+    "description": ""
+  },
+  "q-toolbar": {
+    "attributes": [
+      "color",
+      "inverted",
+      "glossy"
+    ],
+    "description": ""
+  },
+  "q-toolbar-title": {
+    "attributes": [],
+    "description": ""
+  },
+  "q-tooltip": {
+    "attributes": [
+      "value",
+      "anchor",
+      "self",
+      "offset",
+      "delay",
+      "max-height",
+      "disable"
+    ],
+    "description": ""
+  },
+  "q-tree": {
+    "attributes": [
+      "nodes",
+      "node-key",
+      "color",
+      "control-color",
+      "text-color",
+      "dark",
+      "icon",
+      "tick-strategy",
+      "ticked",
+      "expanded",
+      "selected",
+      "default-expand-all",
+      "accordion",
+      "filter",
+      "filter-method",
+      "no-nodes-label",
+      "no-results-label"
+    ],
+    "description": ""
+  },
+  "q-uploader": {
+    "attributes": [
+      "prefix",
+      "suffix",
+      "stack-label",
+      "float-label",
+      "error",
+      "warning",
+      "disable",
+      "color",
+      "dark",
+      "before",
+      "after",
+      "inverted",
+      "hide-underline",
+      "align",
+      "clear-value",
+      "name",
+      "headers",
+      "url",
+      "url-factory",
+      "additional-fields",
+      "method",
+      "extensions",
+      "multiple",
+      "hide-upload-button",
+      "hide-upload-progress",
+      "no-thumbnails",
+      "auto-expand",
+      "expand-style",
+      "expand-class",
+      "send-raw"
+    ],
+    "description": ""
+  },
+  "q-video": {
+    "attributes": [
+      "src"
+    ],
+    "description": ""
+  }
+}
