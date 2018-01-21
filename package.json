@@ -1,0 +1,37 @@
+{
+  "name": "quasar-helper-json",
+  "version": "0.15.0",
+  "description": "Helping IDE to provide autocompletion for Quasar components",
+  "scripts": {
+    "build": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "quasar-tags.json",
+    "quasar-attributes.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quasarframework/quasar-helper-json.git"
+  },
+  "keywords": [
+    "quasar",
+    "quasar-framework",
+    "vue",
+    "plugin",
+    "definition"
+  ],
+  "author": "Razvan Stoenescu <razvan.stoenescu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quasarframework/quasar-helper-json/issues"
+  },
+  "homepage": "https://github.com/quasarframework/quasar-helper-json#readme",
+  "devDependencies": {
+    "json-beautify": "^1.0.1",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.kebabcase": "^4.1.1",
+    "quasar-framework": "^0.15.0-beta.8",
+    "vue": "^2.5.13"
+  }
+}
