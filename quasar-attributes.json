@@ -111,10 +111,6 @@
     "type": "string",
     "description": "String value."
   },
-  "q-breadcrumbs/align": {
-    "type": "string",
-    "description": "String value."
-  },
   "q-breadcrumbs-el/to": {
     "type": "string|object",
     "description": "One of string or object."
@@ -146,6 +142,10 @@
   "q-breadcrumbs-el/no-ripple": {
     "type": "boolean",
     "description": "Boolean value."
+  },
+  "q-btn/align": {
+    "type": "string",
+    "description": "String value."
   },
   "q-btn/disable": {
     "type": "boolean",
@@ -223,10 +223,6 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-btn/justify": {
-    "type": "string",
-    "description": "String value."
-  },
   "q-btn/tabindex": {
     "type": "number",
     "description": "Number value."
@@ -270,6 +266,10 @@
   "q-btn-group/push": {
     "type": "boolean",
     "description": "Boolean value."
+  },
+  "q-btn-dropdown/align": {
+    "type": "string",
+    "description": "String value."
   },
   "q-btn-dropdown/disable": {
     "type": "boolean",
@@ -346,10 +346,6 @@
   "q-btn-dropdown/no-ripple": {
     "type": "boolean",
     "description": "Boolean value."
-  },
-  "q-btn-dropdown/justify": {
-    "type": "string",
-    "description": "String value."
   },
   "q-btn-dropdown/tabindex": {
     "type": "number",
@@ -794,6 +790,10 @@
   "q-collapsible/collapse-icon": {
     "type": "string",
     "description": "String value."
+  },
+  "q-collapsible/opened": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-collapsible/dense": {
     "type": "boolean",
@@ -1251,6 +1251,10 @@
     "type": "string",
     "description": "String value."
   },
+  "q-fab/text-color": {
+    "type": "string",
+    "description": "String value."
+  },
   "q-fab/glossy": {
     "type": "boolean",
     "description": "Boolean value."
@@ -1284,6 +1288,10 @@
     "description": "Boolean value."
   },
   "q-fab-action/color": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-fab-action/text-color": {
     "type": "string",
     "description": "String value."
   },
@@ -1483,7 +1491,7 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-input/no-number-toggle": {
+  "q-input/numeric-keyboard-toggle": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1491,7 +1499,7 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-input/max-decimals": {
+  "q-input/decimals": {
     "type": "number",
     "description": "Number value."
   },
@@ -1608,6 +1616,10 @@
     "description": "String value."
   },
   "q-knob/step": {
+    "type": "number",
+    "description": "Number value."
+  },
+  "q-knob/decimals": {
     "type": "number",
     "description": "Number value."
   },

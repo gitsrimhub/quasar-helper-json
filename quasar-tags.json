@@ -46,10 +46,10 @@
   },
   "q-breadcrumbs": {
     "attributes": [
+      "align",
       "color",
       "active-color",
-      "separator",
-      "align"
+      "separator"
     ],
     "description": ""
   },
@@ -68,6 +68,7 @@
   },
   "q-btn": {
     "attributes": [
+      "align",
       "disable",
       "label",
       "no-caps",
@@ -87,7 +88,6 @@
       "glossy",
       "dense",
       "no-ripple",
-      "justify",
       "tabindex",
       "value",
       "loader",
@@ -109,6 +109,7 @@
   },
   "q-btn-dropdown": {
     "attributes": [
+      "align",
       "disable",
       "label",
       "no-caps",
@@ -128,7 +129,6 @@
       "glossy",
       "dense",
       "no-ripple",
-      "justify",
       "tabindex",
       "value",
       "split"
@@ -320,6 +320,7 @@
       "inset-separator",
       "no-ripple",
       "collapse-icon",
+      "opened",
       "dense",
       "sparse",
       "multiline",
@@ -482,6 +483,7 @@
       "push",
       "flat",
       "color",
+      "text-color",
       "glossy",
       "value",
       "icon",
@@ -496,6 +498,7 @@
       "push",
       "flat",
       "color",
+      "text-color",
       "glossy",
       "icon"
     ],
@@ -576,9 +579,9 @@
       "type",
       "clearable",
       "no-pass-toggle",
-      "no-number-toggle",
+      "numeric-keyboard-toggle",
       "readonly",
-      "max-decimals",
+      "decimals",
       "step",
       "upper-case"
     ],
@@ -619,6 +622,7 @@
       "line-width",
       "size",
       "step",
+      "decimals",
       "disable",
       "readonly"
     ],
