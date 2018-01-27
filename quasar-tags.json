@@ -280,6 +280,7 @@
   },
   "q-chips-input": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -293,7 +294,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "autofocus",
       "name",
@@ -343,6 +343,7 @@
   },
   "q-color": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -356,12 +357,12 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "popover",
       "modal",
       "value",
       "default-selection",
+      "type",
       "display-value",
       "placeholder",
       "clearable",
@@ -374,7 +375,7 @@
   "q-color-picker": {
     "attributes": [
       "value",
-      "color",
+      "type",
       "disable",
       "readonly"
     ],
@@ -386,6 +387,7 @@
   },
   "q-datetime": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -399,7 +401,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "popover",
       "modal",
@@ -416,6 +417,7 @@
       "min",
       "max",
       "first-day-of-week",
+      "format-model",
       "format-24-h",
       "default-view"
     ],
@@ -429,6 +431,7 @@
       "min",
       "max",
       "first-day-of-week",
+      "format-model",
       "format-24-h",
       "default-view",
       "default-selection",
@@ -554,6 +557,7 @@
   },
   "q-input": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -567,7 +571,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "autofocus",
       "name",
@@ -589,6 +592,7 @@
   },
   "q-input-frame": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -602,7 +606,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "top-addons",
       "focused",
@@ -787,6 +790,7 @@
       "content-css",
       "no-backdrop-dismiss",
       "no-esc-dismiss",
+      "no-route-dismiss",
       "minimized",
       "maximized"
     ],
@@ -958,6 +962,7 @@
   },
   "q-search": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -971,7 +976,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "autofocus",
       "name",
@@ -988,6 +992,7 @@
   },
   "q-select": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -1001,7 +1006,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "filter",
       "filter-placeholder",
@@ -1433,6 +1437,7 @@
   },
   "q-uploader": {
     "attributes": [
+      "align",
       "prefix",
       "suffix",
       "stack-label",
@@ -1446,7 +1451,6 @@
       "after",
       "inverted",
       "hide-underline",
-      "align",
       "clear-value",
       "name",
       "headers",
