@@ -379,6 +379,10 @@
     "type": "array",
     "description": "Array value."
   },
+  "q-btn-toggle/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-btn-toggle/disable": {
     "type": "boolean",
     "description": "Boolean value."
@@ -587,6 +591,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-checkbox/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-checkbox/no-focus": {
     "type": "boolean",
     "description": "Boolean value."
@@ -710,14 +718,6 @@
   "q-chips-input/autofocus": {
     "type": "boolean|string",
     "description": "One of boolean or string."
-  },
-  "q-chips-input/name": {
-    "type": "string",
-    "description": "String value."
-  },
-  "q-chips-input/max-length": {
-    "type": "number|string",
-    "description": "One of number or string."
   },
   "q-chips-input/max-height": {
     "type": "number",
@@ -1455,14 +1455,6 @@
     "type": "boolean|string",
     "description": "One of boolean or string."
   },
-  "q-input/name": {
-    "type": "string",
-    "description": "String value."
-  },
-  "q-input/max-length": {
-    "type": "number|string",
-    "description": "One of number or string."
-  },
   "q-input/max-height": {
     "type": "number",
     "description": "Number value."
@@ -2019,6 +2011,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-option-group/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-pagination/value": {
     "type": "number",
     "description": "Number value."
@@ -2199,6 +2195,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-radio/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-radio/no-focus": {
     "type": "boolean",
     "description": "Boolean value."
@@ -2256,6 +2256,10 @@
     "description": "Boolean value."
   },
   "q-range/error": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-range/warning": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -2395,14 +2399,6 @@
     "type": "boolean|string",
     "description": "One of boolean or string."
   },
-  "q-search/name": {
-    "type": "string",
-    "description": "String value."
-  },
-  "q-search/max-length": {
-    "type": "number|string",
-    "description": "One of number or string."
-  },
   "q-search/max-height": {
     "type": "number",
     "description": "Number value."
@@ -2515,6 +2511,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-select/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-select/options": {
     "type": "array",
     "description": "Array value."
@@ -2580,6 +2580,10 @@
     "description": "Boolean value."
   },
   "q-slider/error": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-slider/warning": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -3027,6 +3031,10 @@
     "type": "string",
     "description": "String value."
   },
+  "q-table/dense": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-table/columns": {
     "type": "array",
     "description": "Array value."
@@ -3180,6 +3188,10 @@
     "description": "Boolean value."
   },
   "q-toggle/disable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-toggle/readonly": {
     "type": "boolean",
     "description": "Boolean value."
   },
