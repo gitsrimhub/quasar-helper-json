@@ -691,6 +691,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-chips-input/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-chips-input/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-chips-input/color": {
     "type": "string",
     "description": "String value."
@@ -708,6 +716,10 @@
     "description": "Array value."
   },
   "q-chips-input/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-chips-input/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -735,13 +747,13 @@
     "type": "array",
     "description": "Array value."
   },
-  "q-chips-input/frame-color": {
+  "q-chips-input/chips-color": {
     "type": "string",
     "description": "String value."
   },
-  "q-chips-input/readonly": {
-    "type": "boolean",
-    "description": "Boolean value."
+  "q-chips-input/chips-bg-color": {
+    "type": "string",
+    "description": "String value."
   },
   "q-chips-input/add-icon": {
     "type": "string",
@@ -887,6 +899,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-color/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-color/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-color/color": {
     "type": "string",
     "description": "String value."
@@ -907,6 +927,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-color/inverted-light": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-color/hide-underline": {
     "type": "boolean",
     "description": "Boolean value."
@@ -919,7 +943,7 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-color/default-selection": {
+  "q-color/default-value": {
     "type": "string|object",
     "description": "One of string or object."
   },
@@ -935,10 +959,6 @@
     "type": "string",
     "description": "String value."
   },
-  "q-color/clearable": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-color/ok-label": {
     "type": "string",
     "description": "String value."
@@ -947,11 +967,11 @@
     "type": "string",
     "description": "String value."
   },
-  "q-color/readonly": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-color-picker/value": {
+    "type": "string|object",
+    "description": "One of string or object."
+  },
+  "q-color-picker/default-value": {
     "type": "string|object",
     "description": "One of string or object."
   },
@@ -964,6 +984,10 @@
     "description": "Boolean value."
   },
   "q-color-picker/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-color-picker/dark": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -995,6 +1019,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-datetime/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-datetime/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-datetime/color": {
     "type": "string",
     "description": "String value."
@@ -1012,6 +1044,10 @@
     "description": "Array value."
   },
   "q-datetime/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-datetime/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1035,10 +1071,6 @@
     "type": "string",
     "description": "String value."
   },
-  "q-datetime/clearable": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-datetime/ok-label": {
     "type": "string",
     "description": "String value."
@@ -1047,17 +1079,13 @@
     "type": "string",
     "description": "String value."
   },
-  "q-datetime/default-selection": {
-    "type": "string|number|Date",
-    "description": "One of string, number, or Date."
-  },
   "q-datetime/display-value": {
     "type": "string",
     "description": "String value."
   },
-  "q-datetime/readonly": {
-    "type": "boolean",
-    "description": "Boolean value."
+  "q-datetime/default-value": {
+    "type": "string|number|Date",
+    "description": "One of string, number, or Date."
   },
   "q-datetime/type": {
     "type": "string",
@@ -1079,6 +1107,10 @@
     "type": "string",
     "description": "String value."
   },
+  "q-datetime-picker/default-value": {
+    "type": "string|number|Date",
+    "description": "One of string, number, or Date."
+  },
   "q-datetime-picker/type": {
     "type": "string",
     "description": "String value."
@@ -1086,6 +1118,10 @@
   "q-datetime-picker/color": {
     "type": "string",
     "description": "String value."
+  },
+  "q-datetime-picker/dark": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-datetime-picker/first-day-of-week": {
     "type": "number",
@@ -1102,10 +1138,6 @@
   "q-datetime-picker/default-view": {
     "type": "string",
     "description": "String value."
-  },
-  "q-datetime-picker/default-selection": {
-    "type": "string|number|Date",
-    "description": "One of string, number, or Date."
   },
   "q-datetime-picker/disable": {
     "type": "boolean",
@@ -1427,6 +1459,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-input/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-input/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-input/color": {
     "type": "string",
     "description": "String value."
@@ -1444,6 +1484,10 @@
     "description": "Array value."
   },
   "q-input/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-input/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1471,19 +1515,11 @@
     "type": "string",
     "description": "String value."
   },
-  "q-input/clearable": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-input/no-pass-toggle": {
     "type": "boolean",
     "description": "Boolean value."
   },
   "q-input/numeric-keyboard-toggle": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-input/readonly": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1527,6 +1563,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-input-frame/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-input-frame/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-input-frame/color": {
     "type": "string",
     "description": "String value."
@@ -1544,6 +1588,10 @@
     "description": "Array value."
   },
   "q-input-frame/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-input-frame/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -2031,6 +2079,10 @@
     "type": "string",
     "description": "String value."
   },
+  "q-pagination/text-color": {
+    "type": "string",
+    "description": "String value."
+  },
   "q-pagination/size": {
     "type": "string",
     "description": "String value."
@@ -2371,6 +2423,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-search/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-search/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-search/color": {
     "type": "string",
     "description": "String value."
@@ -2388,6 +2448,10 @@
     "description": "Array value."
   },
   "q-search/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-search/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -2451,6 +2515,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-select/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-select/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-select/color": {
     "type": "string",
     "description": "String value."
@@ -2468,6 +2540,10 @@
     "description": "Array value."
   },
   "q-select/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-select/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -2511,25 +2587,21 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-select/readonly": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-select/options": {
     "type": "array",
     "description": "Array value."
   },
-  "q-select/frame-color": {
+  "q-select/chips-color": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-select/chips-bg-color": {
     "type": "string",
     "description": "String value."
   },
   "q-select/display-value": {
     "type": "string",
     "description": "String value."
-  },
-  "q-select/clearable": {
-    "type": "boolean",
-    "description": "Boolean value."
   },
   "q-slide-transition/appear": {
     "type": "boolean",
@@ -3343,6 +3415,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-uploader/readonly": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-uploader/clearable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-uploader/color": {
     "type": "string",
     "description": "String value."
@@ -3360,6 +3440,10 @@
     "description": "Array value."
   },
   "q-uploader/inverted": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-uploader/inverted-light": {
     "type": "boolean",
     "description": "Boolean value."
   },
