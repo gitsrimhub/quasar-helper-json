@@ -139,10 +139,6 @@
     "type": "string",
     "description": "String value."
   },
-  "q-breadcrumbs-el/no-ripple": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-btn/align": {
     "type": "string",
     "description": "String value."
@@ -763,43 +759,11 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-collapsible/disable": {
+  "q-collapsible/dark": {
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-collapsible/popup": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-collapsible/indent": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-collapsible/group": {
-    "type": "string",
-    "description": "String value."
-  },
-  "q-collapsible/icon-toggle": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-collapsible/separator": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-collapsible/inset-separator": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-collapsible/no-ripple": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-collapsible/collapse-icon": {
-    "type": "string",
-    "description": "String value."
-  },
-  "q-collapsible/opened": {
+  "q-collapsible/link": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -811,7 +775,19 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-collapsible/separator": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/inset-separator": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-collapsible/multiline": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/highlight": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -862,6 +838,42 @@
   "q-collapsible/sublabel-lines": {
     "type": "string|number",
     "description": "One of string or number."
+  },
+  "q-collapsible/tag": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-collapsible/disable": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/popup": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/indent": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/group": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-collapsible/icon-toggle": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/no-ripple": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-collapsible/collapse-icon": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-collapsible/opened": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-collapsible/header-style": {
     "type": "array|string|object",
@@ -966,6 +978,10 @@
   "q-color/cancel-label": {
     "type": "string",
     "description": "String value."
+  },
+  "q-color-picker/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-color-picker/value": {
     "type": "string|object",
@@ -1139,6 +1155,10 @@
     "type": "string",
     "description": "String value."
   },
+  "q-datetime-picker/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-datetime-picker/disable": {
     "type": "boolean",
     "description": "Boolean value."
@@ -1291,13 +1311,13 @@
     "type": "boolean",
     "description": "Boolean value."
   },
-  "q-fab/value": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-fab/icon": {
     "type": "string",
     "description": "String value."
+  },
+  "q-fab/value": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-fab/active-icon": {
     "type": "string",
@@ -1599,6 +1619,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-input-frame/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-input-frame/top-addons": {
     "type": "boolean",
     "description": "Boolean value."
@@ -1739,6 +1763,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-item/link": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-item/dense": {
     "type": "boolean",
     "description": "Boolean value."
@@ -1763,6 +1791,54 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-item/icon": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/right-icon": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/image": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/right-image": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/avatar": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/right-avatar": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/letter": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/right-letter": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/label": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/sublabel": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/label-lines": {
+    "type": "string|number",
+    "description": "One of string or number."
+  },
+  "q-item/sublabel-lines": {
+    "type": "string|number",
+    "description": "One of string or number."
+  },
   "q-item/tag": {
     "type": "string",
     "description": "String value."
@@ -1784,10 +1860,6 @@
     "description": "Boolean value."
   },
   "q-item/active": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-item/link": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -2030,6 +2102,10 @@
   "q-modal-layout/footer-class": {
     "type": "string|object|array",
     "description": "One of string, object, or array."
+  },
+  "q-option-group/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-option-group/color": {
     "type": "string",

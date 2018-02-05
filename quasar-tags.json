@@ -61,8 +61,7 @@
       "replace",
       "label",
       "icon",
-      "color",
-      "no-ripple"
+      "color"
     ],
     "description": ""
   },
@@ -314,19 +313,14 @@
   "q-collapsible": {
     "attributes": [
       "value",
-      "disable",
-      "popup",
-      "indent",
-      "group",
-      "icon-toggle",
-      "separator",
-      "inset-separator",
-      "no-ripple",
-      "collapse-icon",
-      "opened",
+      "dark",
+      "link",
       "dense",
       "sparse",
+      "separator",
+      "inset-separator",
       "multiline",
+      "highlight",
       "icon",
       "right-icon",
       "image",
@@ -339,6 +333,15 @@
       "sublabel",
       "label-lines",
       "sublabel-lines",
+      "tag",
+      "disable",
+      "popup",
+      "indent",
+      "group",
+      "icon-toggle",
+      "no-ripple",
+      "collapse-icon",
+      "opened",
       "header-style",
       "header-class"
     ],
@@ -378,6 +381,7 @@
   },
   "q-color-picker": {
     "attributes": [
+      "no-parent-field",
       "value",
       "default-value",
       "type",
@@ -443,6 +447,7 @@
       "format-model",
       "format-24-h",
       "default-view",
+      "no-parent-field",
       "disable",
       "readonly"
     ],
@@ -496,8 +501,8 @@
       "color",
       "text-color",
       "glossy",
-      "value",
       "icon",
+      "value",
       "active-icon",
       "direction"
     ],
@@ -530,10 +535,6 @@
       "orientation",
       "label-width"
     ],
-    "description": ""
-  },
-  "q-field-reset": {
-    "attributes": [],
     "description": ""
   },
   "q-icon": {
@@ -617,6 +618,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "top-addons",
       "focused",
       "length",
@@ -696,19 +698,31 @@
   "q-item": {
     "attributes": [
       "dark",
+      "link",
       "dense",
       "sparse",
       "separator",
       "inset-separator",
       "multiline",
       "highlight",
+      "icon",
+      "right-icon",
+      "image",
+      "right-image",
+      "avatar",
+      "right-avatar",
+      "letter",
+      "right-letter",
+      "label",
+      "sublabel",
+      "label-lines",
+      "sublabel-lines",
       "tag",
       "to",
       "exact",
       "append",
       "replace",
-      "active",
-      "link"
+      "active"
     ],
     "description": ""
   },
@@ -831,6 +845,7 @@
   },
   "q-option-group": {
     "attributes": [
+      "no-parent-field",
       "value",
       "type",
       "color",
