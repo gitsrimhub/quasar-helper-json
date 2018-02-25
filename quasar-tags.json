@@ -59,6 +59,9 @@
       "exact",
       "append",
       "replace",
+      "event",
+      "active-class",
+      "exact-active-class",
       "label",
       "icon",
       "color"
@@ -68,6 +71,7 @@
   "q-btn": {
     "attributes": [
       "align",
+      "loading",
       "disable",
       "label",
       "no-caps",
@@ -88,8 +92,6 @@
       "dense",
       "no-ripple",
       "tabindex",
-      "value",
-      "loader",
       "percentage",
       "dark-percentage",
       "wait-for-ripple",
@@ -109,6 +111,7 @@
   "q-btn-dropdown": {
     "attributes": [
       "align",
+      "loading",
       "disable",
       "label",
       "no-caps",
@@ -130,7 +133,9 @@
       "no-ripple",
       "tabindex",
       "value",
-      "split"
+      "split",
+      "content-class",
+      "content-style"
     ],
     "description": ""
   },
@@ -140,7 +145,7 @@
       "color",
       "text-color",
       "toggle-color",
-      "text-toggle-color",
+      "toggle-text-color",
       "options",
       "readonly",
       "disable",
@@ -299,6 +304,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "autofocus",
       "max-height",
       "placeholder",
@@ -367,11 +373,12 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "popover",
       "modal",
       "value",
       "default-value",
-      "type",
+      "format-model",
       "display-value",
       "placeholder",
       "ok-label",
@@ -384,7 +391,7 @@
       "no-parent-field",
       "value",
       "default-value",
-      "type",
+      "format-model",
       "disable",
       "readonly",
       "dark"
@@ -415,6 +422,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "popover",
       "modal",
       "format",
@@ -464,6 +472,8 @@
       "cancel",
       "stack-buttons",
       "prevent-close",
+      "no-backdrop-dismiss",
+      "no-esc-dismiss",
       "position",
       "color"
     ],
@@ -531,6 +541,7 @@
       "warning-label",
       "helper",
       "icon",
+      "icon-color",
       "dark",
       "orientation",
       "label-width"
@@ -584,6 +595,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "autofocus",
       "max-height",
       "placeholder",
@@ -722,6 +734,9 @@
       "exact",
       "append",
       "replace",
+      "event",
+      "active-class",
+      "exact-active-class",
       "active"
     ],
     "description": ""
@@ -768,6 +783,7 @@
       "label",
       "sublabel",
       "lines",
+      "tag",
       "color",
       "text-color"
     ],
@@ -1009,6 +1025,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "autofocus",
       "max-height",
       "placeholder",
@@ -1016,7 +1033,8 @@
       "value",
       "type",
       "debounce",
-      "icon"
+      "icon",
+      "no-icon"
     ],
     "description": ""
   },
@@ -1040,6 +1058,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "filter",
       "filter-placeholder",
       "autofocus-filter",
@@ -1286,7 +1305,10 @@
       "to",
       "exact",
       "append",
-      "replace"
+      "replace",
+      "event",
+      "active-class",
+      "exact-active-class"
     ],
     "description": ""
   },
@@ -1340,7 +1362,7 @@
       "color",
       "dense",
       "columns",
-      "loader",
+      "loading",
       "title",
       "hide-header",
       "hide-bottom",
@@ -1348,7 +1370,7 @@
       "separator",
       "no-data-label",
       "no-results-label",
-      "loader-label",
+      "loading-label",
       "selected-rows-label",
       "rows-per-page-label",
       "pagination-label",
@@ -1434,7 +1456,9 @@
     "description": ""
   },
   "q-toolbar-title": {
-    "attributes": [],
+    "attributes": [
+      "shrink"
+    ],
     "description": ""
   },
   "q-tooltip": {
@@ -1491,6 +1515,7 @@
       "inverted-light",
       "hide-underline",
       "clear-value",
+      "no-parent-field",
       "name",
       "headers",
       "url",

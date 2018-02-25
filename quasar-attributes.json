@@ -127,6 +127,18 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-breadcrumbs-el/event": {
+    "type": "string|array",
+    "description": "One of string or array."
+  },
+  "q-breadcrumbs-el/active-class": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-breadcrumbs-el/exact-active-class": {
+    "type": "string",
+    "description": "String value."
+  },
   "q-breadcrumbs-el/label": {
     "type": "string",
     "description": "String value."
@@ -142,6 +154,10 @@
   "q-btn/align": {
     "type": "string",
     "description": "String value."
+  },
+  "q-btn/loading": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-btn/disable": {
     "type": "boolean",
@@ -223,14 +239,6 @@
     "type": "number",
     "description": "Number value."
   },
-  "q-btn/value": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
-  "q-btn/loader": {
-    "type": "boolean",
-    "description": "Boolean value."
-  },
   "q-btn/percentage": {
     "type": "number",
     "description": "Number value."
@@ -266,6 +274,10 @@
   "q-btn-dropdown/align": {
     "type": "string",
     "description": "String value."
+  },
+  "q-btn-dropdown/loading": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-btn-dropdown/disable": {
     "type": "boolean",
@@ -355,6 +367,14 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-btn-dropdown/content-class": {
+    "type": "array|string|object",
+    "description": "One of array, string, or object."
+  },
+  "q-btn-dropdown/content-style": {
+    "type": "array|string|object",
+    "description": "One of array, string, or object."
+  },
   "q-btn-toggle/color": {
     "type": "string",
     "description": "String value."
@@ -367,7 +387,7 @@
     "type": "string",
     "description": "String value."
   },
-  "q-btn-toggle/text-toggle-color": {
+  "q-btn-toggle/toggle-text-color": {
     "type": "string",
     "description": "String value."
   },
@@ -723,6 +743,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-chips-input/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-chips-input/autofocus": {
     "type": "boolean|string",
     "description": "One of boolean or string."
@@ -947,6 +971,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-color/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-color/popover": {
     "type": "boolean",
     "description": "Boolean value."
@@ -959,7 +987,7 @@
     "type": "string|object",
     "description": "One of string or object."
   },
-  "q-color/type": {
+  "q-color/format-model": {
     "type": "string",
     "description": "String value."
   },
@@ -991,7 +1019,7 @@
     "type": "string|object",
     "description": "One of string or object."
   },
-  "q-color-picker/type": {
+  "q-color-picker/format-model": {
     "type": "string",
     "description": "String value."
   },
@@ -1068,6 +1096,10 @@
     "description": "Boolean value."
   },
   "q-datetime/hide-underline": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-datetime/no-parent-field": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1188,18 +1220,26 @@
     "description": "Object value."
   },
   "q-dialog/ok": {
-    "type": "string|boolean",
-    "description": "One of string or boolean."
+    "type": "string|object|boolean",
+    "description": "One of string, object, or boolean."
   },
   "q-dialog/cancel": {
-    "type": "string|boolean",
-    "description": "One of string or boolean."
+    "type": "string|object|boolean",
+    "description": "One of string, object, or boolean."
   },
   "q-dialog/stack-buttons": {
     "type": "boolean",
     "description": "Boolean value."
   },
   "q-dialog/prevent-close": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-dialog/no-backdrop-dismiss": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-dialog/no-esc-dismiss": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1391,6 +1431,10 @@
     "type": "string",
     "description": "String value."
   },
+  "q-field/icon-color": {
+    "type": "string",
+    "description": "String value."
+  },
   "q-field/dark": {
     "type": "boolean",
     "description": "Boolean value."
@@ -1448,6 +1492,10 @@
     "description": "One of string or number."
   },
   "q-inner-loading/color": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-input/align": {
     "type": "string",
     "description": "String value."
   },
@@ -1512,6 +1560,10 @@
     "description": "Boolean value."
   },
   "q-input/hide-underline": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-input/no-parent-field": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -1859,6 +1911,18 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-item/event": {
+    "type": "string|array",
+    "description": "One of string or array."
+  },
+  "q-item/active-class": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-item/exact-active-class": {
+    "type": "string",
+    "description": "String value."
+  },
   "q-item/active": {
     "type": "boolean",
     "description": "Boolean value."
@@ -1962,6 +2026,10 @@
   "q-item-tile/lines": {
     "type": "number|string",
     "description": "One of number or string."
+  },
+  "q-item-tile/tag": {
+    "type": "string",
+    "description": "String value."
   },
   "q-item-tile/color": {
     "type": "string",
@@ -2535,6 +2603,10 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-search/no-parent-field": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
   "q-search/autofocus": {
     "type": "boolean|string",
     "description": "One of boolean or string."
@@ -2562,6 +2634,10 @@
   "q-search/icon": {
     "type": "string",
     "description": "String value."
+  },
+  "q-search/no-icon": {
+    "type": "boolean",
+    "description": "Boolean value."
   },
   "q-select/prefix": {
     "type": "string",
@@ -2624,6 +2700,10 @@
     "description": "Boolean value."
   },
   "q-select/hide-underline": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-select/no-parent-field": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -3055,6 +3135,18 @@
     "type": "boolean",
     "description": "Boolean value."
   },
+  "q-route-tab/event": {
+    "type": "string|array",
+    "description": "One of string or array."
+  },
+  "q-route-tab/active-class": {
+    "type": "string",
+    "description": "String value."
+  },
+  "q-route-tab/exact-active-class": {
+    "type": "string",
+    "description": "String value."
+  },
   "q-tab/label": {
     "type": "string",
     "description": "String value."
@@ -3187,7 +3279,7 @@
     "type": "array",
     "description": "Array value."
   },
-  "q-table/loader": {
+  "q-table/loading": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -3219,7 +3311,7 @@
     "type": "string",
     "description": "String value."
   },
-  "q-table/loader-label": {
+  "q-table/loading-label": {
     "type": "string",
     "description": "String value."
   },
@@ -3368,6 +3460,10 @@
     "description": "Boolean value."
   },
   "q-toolbar/glossy": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-toolbar-title/shrink": {
     "type": "boolean",
     "description": "Boolean value."
   },
@@ -3524,6 +3620,10 @@
     "description": "Boolean value."
   },
   "q-uploader/hide-underline": {
+    "type": "boolean",
+    "description": "Boolean value."
+  },
+  "q-uploader/no-parent-field": {
     "type": "boolean",
     "description": "Boolean value."
   },
